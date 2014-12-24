@@ -1,0 +1,38 @@
+---
+abstract: 'Execute various tasks based on input from various sources'
+author:
+  - 'Michael LaGrasta <michael@lagrasta.com>'
+build_requires:
+  File::Temp: '0'
+  Test::More: '0'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.025, CPAN::Meta::Converter version 2.142690'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: App-Automaton
+requires:
+  Carp: '0'
+  Data::Dumper: '0'
+  Email::Simple: '0'
+  File::HomeDir: '0'
+  File::Spec::Functions: '0'
+  Getopt::Std: '0'
+  HTML::Entities: '0'
+  HTTP::Request: '0'
+  JSON: '0'
+  LWP::UserAgent: '0'
+  Module::Load: '0'
+  Moo: '0'
+  Net::IMAP::Simple: '0'
+  URI: '0'
+  WWW::Offliberty: '0'
+  YAML::Tiny: '0'
+  constant: '0'
+  perl: '5.008001'
+  strict: '0'
+  warnings: '0'
+version: '0.143580'
